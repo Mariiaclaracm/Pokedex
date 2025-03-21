@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 1.3rem;
+    font-family: system-ui;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100dvh;
+    align-items: center;
+}
+
+.container .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 300px;
+    background: white;
+    border-radius: 7px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.botao #pokemon{
+    width: 250px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+}
+
+.botao{
+    background-color: rgb(114,22,22);
+}
+.sprite{
+    width: 300px;
+}
